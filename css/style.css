@@ -157,6 +157,7 @@ input[type=checkbox] + label:before
     color: blue;
     background-color: #dbe5e9;
     float: right;
+    cursor: pointer;
  } /* unchecked icon */
 input[type=checkbox] + label:before { letter-spacing: 100px; } /* space between checkbox and label */
 input[type=checkbox]:checked + label:before { 
@@ -164,7 +165,10 @@ input[type=checkbox]:checked + label:before {
     font-size: 23px;
     color: #004f91;
     padding: 0px 0px 0px 6px;
+    cursor: pointer;
+
 	} /* checked icon */
+
 input[type=checkbox]:checked + label:before { letter-spacing: 100px; } /* allow space for check mark */
 label {
 	margin: 20px 0px;
